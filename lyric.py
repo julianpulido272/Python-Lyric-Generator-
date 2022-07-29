@@ -6,7 +6,7 @@ import spotipy
 import json
 import lyricsgenius as lg
 import requests
-from secrets import spotipy_client_id, spotipy_secret, spotipy_redirect_uri, genius_access_token
+from Usersecrets import spotipy_client_id, spotipy_secret, spotipy_redirect_uri, genius_access_token
 
 
 scope = 'user-read-currently-playing'
